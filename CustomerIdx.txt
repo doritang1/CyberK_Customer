@@ -1,0 +1,3 @@
+﻿<Customer Number>45-094-3722</Customer Number><Customer Name>명인전자</Customer Name><Customer Etc>테스트</Customer Etc>
+<Customer Number>01-348-3684</Customer Number><Customer Name>다후아</Customer Name><Customer Etc>xpdklfjsdlfjeo</Customer Etc>
+<Customer Number>07-225-0901</Customer Number><Customer Name>우리식자재마트</Customer Name><Customer Etc>대표: 차경민 8월 2-3주에 100 한도거래 검토 동업자 등록여부 확인, 면세 제외매출 한도산정</Customer Etc>
