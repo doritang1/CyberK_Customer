@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CK_Customer</class>
+ <widget class="QDialog" name="CK_Customer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>398</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>업체관리</string>
+  </property>
+  <widget class="QLineEdit" name="lineEditName">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblName">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>상호:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditNumber">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>220</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNumber">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>220</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>고객번호:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditEtc">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>331</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblEtc">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>비고:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonInsert">
+   <property name="geometry">
+    <rect>
+     <x>82</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>삽입</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonDelete">
+   <property name="geometry">
+    <rect>
+     <x>162</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>삭제</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonModify">
+   <property name="geometry">
+    <rect>
+     <x>242</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>수정</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCommit">
+   <property name="geometry">
+    <rect>
+     <x>322</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>저장</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetCustomerName">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>371</width>
+     <height>201</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonNew">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>370</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>입력준비</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
